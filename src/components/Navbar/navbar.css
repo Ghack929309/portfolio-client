@@ -1,0 +1,22 @@
+.app__navbar {
+	@apply w-full flex justify-between items-center py-4 px-8 bg-[rgba(255,255,255,0.25)] backdrop-blur-[4px] border-[1px] border-[rgba(255,255,255,0.18)] fixed z-20;
+}
+
+.p-text {
+	@apply font-dm text-sm text-left text-gray-color leading-6 mx-4 cursor-pointer flex flex-col;
+}
+.app__navbar-logo {
+	@apply flex justify-start items-center;
+}
+.app__image-logo {
+	@apply w-[200px] h-[60px] desktop:w-[232px] desktop:h-[71px];
+}
+.app__navbar-links {
+	@apply flex-1 medium:flex justify-center items-center small:hidden;
+}
+.app__navbar-menu {
+	@apply w-[35px] h-[35px] rounded-full small:relative medium:hidden flex justify-center items-center bg-secondary;
+}
+.app__navbar-framer {
+	@apply fixed top-0 bottom-0 right-0 z-30 p-4 bg-white bg-repeat bg-cover bg-[url('/src/assets/bgWhite.png')] w-[80%] h-screen flex flex-col justify-end items-end shadow-sm shadow-[rgba(168,168,168,0.15)];
+}

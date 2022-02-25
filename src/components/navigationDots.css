@@ -1,0 +1,6 @@
+.app__navigation {
+	@apply flex justify-center items-center flex-col py-4 small-max:hidden;
+}
+.app__navigation-dot {
+	@apply w-[10px] h-[10px] rounded-full bg-[#cbcbcb] my-2 transition ease-in-out delay-200 hover:bg-secondary min-ultra:w-[20px] min-ultra:h-[20px];
+}

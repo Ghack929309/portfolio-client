@@ -1,0 +1,36 @@
+.app__work {
+	@apply flex-1 w-full flex flex-col;
+}
+.app__work-filter {
+	@apply flex justify-start items-center flex-wrap mt-16 mb-8;
+}
+.app__work-filter-item {
+	@apply py-2 px-4 rounded-lg bg-[#fff] text-[#000] font-extrabold cursor-pointer transition-all duration-300 ease-in min-ultra:py-4 min-ultra:rounded-xl hover:bg-secondary m-2 hover:text-[#fff];
+}
+.item-active {
+	@apply bg-secondary text-[#fff];
+}
+.app__work-portfolio {
+	@apply flex flex-wrap justify-center items-center;
+}
+.app__work-item {
+	@apply w-[270px] small-max:w-full small-max:m-4 m-8 shadow-xl shadow-[rgba(0,0,0,0.2)] min-ultra:p-5 min-ultra:rounded-xl min-ultra:w-[470px] flex transition-all duration-300 ease-in flex-col p-4 rounded-lg bg-[#fff] text-[#000] cursor-pointer;
+}
+.app__work-img {
+	@apply w-full h-[230px] relative min-ultra:h-[350px];
+}
+.app__work-hover {
+	@apply absolute top-0 left-0 bottom-0 right-0 w-full h-full bg-[rgba(0,0,0,0.5)] rounded-lg opacity-0 transition-all duration-300 ease-in;
+}
+.icon {
+	@apply w-[50px] h-[50px] rounded-full bg-[rgba(0,0,0,0.5)] text-white font-dm m-4 font-extrabold cursor-pointer transition-all ease-in duration-300;
+}
+.icon-item {
+	@apply w-1/2 h-1/2 text-white;
+}
+.app__work-content {
+	@apply p-2 w-full relative flex flex-col;
+}
+.app__work-tag {
+	@apply absolute py-2 px-4 rounded-[10px] bg-[#fff] -top-[25px];
+}

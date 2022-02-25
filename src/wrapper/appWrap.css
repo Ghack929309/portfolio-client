@@ -1,0 +1,9 @@
+.app__container {
+	@apply w-full min-h-screen flex;
+}
+.app__wrapper {
+	@apply flex-1 w-full flex flex-col py-16 px-8 small-max:pt-4 small-max:pr-4 small-max:pb-8;
+}
+.copyright1 {
+	@apply w-full pt-8  flex flex-col justify-end items-end;
+}

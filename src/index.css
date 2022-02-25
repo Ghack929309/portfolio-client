@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.app {
+	@apply bg-primary font-dm;
+}
+.app__flex {
+	@apply flex justify-center items-center;
+}
+.head-text {
+	@apply text-black-color text-center capitalize text-3xl font-extrabold;
+}
+.app__whitebg {
+	@apply bg-white;
+}
+.app__primarybg {
+	@apply bg-primary;
+}

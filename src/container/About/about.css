@@ -1,0 +1,15 @@
+.p-text1 {
+	@apply font-dm text-sm text-left text-gray-color leading-6;
+}
+.app__about {
+	@apply flex-1 w-full flex flex-col;
+}
+.app__profiles {
+	@apply flex justify-center items-start flex-wrap mt-8;
+}
+.app__profile-item {
+	@apply w-[190px] flex justify-start items-start flex-col m-8 ultra:w-[370px] ultra:my-8 ultra:mx-16;
+}
+.bold-text {
+	@apply text-sm tablet:text-lg font-extrabold text-black-color text-left ultra:text-3xl;
+}

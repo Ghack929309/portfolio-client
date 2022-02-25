@@ -1,0 +1,37 @@
+.p-text {
+	@apply font-dm text-sm text-left text-gray-color leading-6;
+}
+#home {
+	@apply relative bg-[url('/src/assets/bgIMG.png')] bg-cover bg-repeat bg-center;
+}
+.app__wrapper {
+	@apply p-0;
+}
+.copyright {
+	@apply hidden;
+}
+.app__header {
+	@apply flex-1 w-full h-full flex  pt-24 pb-8  ultra:pt-32 pr-8 desktop-max:flex-col;
+}
+.app__header-info {
+	@apply flex-[0.65] flex flex-col justify-start items-start h-full ultra-max:w-full ultra-max:mr-0;
+}
+.app__header-badge {
+	@apply w-full flex flex-col justify-end items-end desktop-max:justify-start desktop-max:items-start;
+}
+.badge-cmp,
+.tag-cmp {
+	@apply py-4 px-2 border-white rounded-lg flex w-auto shadow-lg shadow-[rgba(0,0,0,0.1)];
+}
+.tag-cmp {
+	@apply flex flex-col mt-12;
+}
+.app__header-circles {
+	@apply flex-[0.75] flex flex-col justify-evenly items-start h-full ml-4  desktop-max:w-full desktop-max:flex-row desktop-max:flex-wrap desktop-max:ml-0;
+}
+.app__header-img {
+	@apply flex-1 h-full flex justify-end items-end relative;
+}
+.overlay_circle {
+	@apply absolute left-0 right-0 bottom-0 z-0 w-full h-[90%] desktop-max:my-8 desktop-max:mx-0;
+}

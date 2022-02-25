@@ -1,0 +1,27 @@
+.app__footer {
+	@apply flex-1 w-full flex flex-col;
+}
+.app__footer-cards {
+	@apply w-[60%] flex justify-evenly items-center flex-wrap-reverse mt-16 mr-8 ml-8;
+}
+.app__footer-card {
+	@apply min-w-[290px] flex flex-row justify-start items-center my-4 mx-0 p-4 rounded-[10px] cursor-pointer bg-[#fef4f5] last:bg-[#f2f7fb]  transition-all ease-in-out duration-300 hover:shadow-xl hover:shadow-[#fef4f5] small-max:w-full big-tablet:w-full;
+}
+.contact-img {
+	@apply w-[40px] h-[40px] mt-0 mr-3;
+}
+.app__footer-form {
+	@apply w-[60%] flex flex-col my-4 mx-8 big-tablet:w-full big-tablet:my-4 big-tablet:mx-0;
+}
+.footer-div {
+	@apply w-full my-3 mx-0 rounded-[10px] cursor-pointer bg-primary transition-all ease-in-out duration-300;
+}
+.footer-input {
+	@apply w-full p-4 border-none bg-primary font-dm text-secondary outline-none hover:shadow-xl hover:shadow-primary;
+}
+.send {
+	@apply py-4 px-4  rounded-[10px] border-none bg-secondary font-medium text-white outline-none mt-8 font-dm cursor-pointer;
+}
+.p-error {
+	@apply z-10 ml-4 -mb-6 text-red-400;
+}
