@@ -33,7 +33,7 @@ const Header = () => {
 					</div>
 					<div className="tag-cmp app__flex">
 						<p className="p-text w-full uppercase text-right">
-							Frontend web developer
+							Fullstack web developer
 						</p>
 						{/* <p className="p-text">Hello, I am</p> */}
 					</div>
@@ -63,7 +63,7 @@ const Header = () => {
 				whileInView={scaleVariants.whileInView}
 				className="app__header-circles "
 			>
-				{[images.react, images.javascript, images.typescript].map(
+				{[images.react, images.node, images.typescript].map(
 					(circle, index) => (
 						<div
 							className={`circle-map app__flex m-4 ${

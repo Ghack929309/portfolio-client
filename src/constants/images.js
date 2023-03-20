@@ -11,6 +11,7 @@ import html from "../assets/html.png";
 import javascript from "../assets/javascript.svg";
 import mu5 from "../assets/mu5.png";
 import node from "../assets/node.png";
+import node1 from '../assets/node1.png'
 import python from "../assets/python.png";
 import react from "../assets/react.svg";
 import redux from "../assets/redux.png";
@@ -46,6 +47,7 @@ export default {
 	flutter,
 	git,
 	graphql,
+	node1,
 	jonathan,
 	html,
 	javascript,
